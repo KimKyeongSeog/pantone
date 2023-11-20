@@ -6,6 +6,9 @@ import PopUp from "./components/PopUp";
 import BannerBottom from "./components/BannerBottom";
 import FeaturedImages from "./components/FeaturedImages";
 import Slider from "react-slick";
+import FourBoxes from "./components/FourBoxes";
+import ExpertsBanner from "./components/ExpertsBanner";
+import Institutite from "./components/Institutite";
 
 const App = () => {
   const images = [
@@ -30,7 +33,7 @@ const App = () => {
         </div>
       </div>
       <div className="w-screen-max h-full flex flex-col justify-center items-center">
-        <div className="bg-orange-200 w-[1314px] h-[522px] overflow-hidden ">
+        <div className=" w-[1314px] h-[522px] overflow-hidden ">
           <div>
             <FeaturedProduct />
           </div>
@@ -40,10 +43,13 @@ const App = () => {
             </Slider>
           </div>
         </div>
-        <div className="bg-green-200 w-[1314px] h-[413px]">4Boxes</div>
-        <div className="bg-blue-200">4People</div>
-        <div className="bg-purple-200">pantone-color-institute</div>
-        <div className="bg-gray-200">meet-pantone-connect</div>
+        <button className="duration-700 bg-black hover:bg-pink-700 active:bg-black text-white w-[90px] h-[50px] text-center font-bold rounded-lg ">
+          Shop All
+        </button>
+        <FourBoxes />
+        <ExpertsBanner />
+        <Institutite />
+        <div className="mt-24 bg-gray-200">meet-pantone-connect</div>
         <div className="bg-cyan-400">explore-pantone</div>
       </div>
       <footer className="bg-block"></footer>

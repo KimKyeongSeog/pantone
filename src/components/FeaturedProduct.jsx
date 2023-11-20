@@ -8,8 +8,8 @@ const FeaturedProduct = () => {
   };
 
   return (
-    <div className="bg-green-400 mt-20 HelveticaNeue_Light">
-      <div className="text-center text-5xl">Featured Product</div>
+    <div className="mt-20 font-HelveticaNeue_Light">
+      <div className="text-center text-4xl">Featured Product</div>
       <div className="flex flex-row mt-4 pl-4">
         <button
           onClick={() => onClickButton("GRAPHIC")}

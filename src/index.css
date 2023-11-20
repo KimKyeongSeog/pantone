@@ -3,52 +3,71 @@
 @tailwind utilities;
 
 @font-face {
-    font-family: 'HelveticaNeue';
-    src: url(./font/HelveticaNeue.ttf);
+  font-family: "HelveticaNeue";
+  font-style: normal;
+  font-weight: normal;
+  src: url(./font/HelveticaNeue.ttf);
 }
 
 @font-face {
-    font-family: 'Helvetica_Neu_Bold';
-    src: url(./font/Helvetica_Neu_Bold.ttf);
+  font-family: "Helvetica_Neu_Bold";
+  font-style: normal;
+  font-weight: normal;
+  src: url(./font/Helvetica_Neu_Bold.ttf);
 }
 
 @font-face {
-    font-family: 'HelveticaNeue_BlackCond';
-    src: url(./font/HelveticaNeue_BlackCond.ttf);
+  font-family: "HelveticaNeue_BlackCond";
+  font-style: normal;
+  font-weight: normal;
+  src: url(./font/HelveticaNeue_BlackCond.ttf);
 }
 
 @font-face {
-    font-family: 'HelveticaNeue_Light';
-    src: url(./font/HelveticaNeue_Light.ttf);
+  font-family: "HelveticaNeue_Light";
+  font-style: normal;
+  font-weight: normal;
+  src: url(./font/HelveticaNeue_Light.ttf);
 }
 
 @font-face {
-    font-family: 'HelveticaNeueBd';
-    src: url(./font/HelveticaNeueBd.ttf);
+  font-family: "HelveticaNeueBd";
+  src: url(./font/HelveticaNeueBd.ttf);
 }
 
 @font-face {
-    font-family: 'HelveticaNeueHv';
-    src: url(./font/HelveticaNeueHv.ttf);
+  font-family: "HelveticaNeueHv";
+  font-style: normal;
+  font-weight: normal;
+  src: url(./font/HelveticaNeueHv.ttf);
 }
 @font-face {
-    font-family: 'HelveticaNeueIt';
-    src: url(./font/HelveticaNeueIt.ttf);
+  font-family: "HelveticaNeueIt";
+  font-style: normal;
+  font-weight: normal;
+  src: url(./font/HelveticaNeueIt.ttf);
 }
 @font-face {
-    font-family: 'HelveticaNeueLt';
-    src: url(./font/HelveticaNeueLt.ttf);
+  font-family: "HelveticaNeueLt";
+  font-style: normal;
+  font-weight: normal;
+  src: url(./font/HelveticaNeueLt.ttf);
 }
 @font-face {
-    font-family: 'HelveticaNeueMed';
-    src: url(./font/HelveticaNeueMed.ttf);
+  font-family: "HelveticaNeueMed";
+  font-style: normal;
+  font-weight: normal;
+  src: url(./font/HelveticaNeueMed.ttf);
 }
 @font-face {
-    font-family: 'HelveticaNeue_Medium';
-    src: url(./font/HelveticaNeue_Medium.ttf);
+  font-family: "HelveticaNeue_Medium";
+  font-style: normal;
+  font-weight: normal;
+  src: url(./font/HelveticaNeue_Medium.ttf);
 }
 @font-face {
-    font-family: 'HelveticaNeue_Thin';
-    src: url(./font/HelveticaNeue_Thin.ttf);
+  font-family: "HelveticaNeue_Thin";
+  font-style: normal;
+  font-weight: normal;
+  src: url(./font/HelveticaNeue_Thin.ttf);
 }
-
