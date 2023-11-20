@@ -1,18 +1,59 @@
-const FeaturedProduct = () => {
-    return (
-        <div className="bg-green-400">
-            <div className="">
-                <div className="text-center">Featured Product</div>
-                <div className="flex justify-left pr-3 text-sm">
-                    <span>GRAPHIC + DIGITAL</span>
-                    <span>FASHION, HOME + INTERIORS</span>
-                    <span>MUNSELL</span>
-                    <span>LIFESTYLE</span>
-                    <span>PLASTICS</span>
-                </div>
-            </div>
-        </div>
-    );
-}
+import { useState } from "react";
 
-export default FeaturedProduct ;
+const FeaturedProduct = () => {
+  const [selectedButton, setSelectedButton] = useState("GRAPHIC");
+
+  const onClickButton = (buttonName) => {
+    setSelectedButton(buttonName);
+  };
+
+  return (
+    <div className="bg-green-400 mt-20 HelveticaNeue_Light">
+      <div className="text-center text-5xl">Featured Product</div>
+      <div className="flex flex-row mt-4 pl-4">
+        <button
+          onClick={() => onClickButton("GRAPHIC")}
+          className={`ml-6 ${
+            selectedButton === "GRAPHIC" ? "text-lg font-bold" : "text-lg"
+          }`}
+        >
+          GRAPHIC + DIGITAL
+        </button>
+        <button
+          onClick={() => onClickButton("FASHION")}
+          className={`ml-6 ${
+            selectedButton === "FASHION" ? "text-lg font-bold" : "text-lg"
+          }`}
+        >
+          FASHION, HOME + INTERIORS
+        </button>
+        <button
+          onClick={() => onClickButton("MUNSELL")}
+          className={`ml-6 ${
+            selectedButton === "MUNSELL" ? "text-lg font-bold" : "text-lg"
+          }`}
+        >
+          MUNSELL
+        </button>
+        <button
+          onClick={() => onClickButton("LIFESTYLE")}
+          className={`ml-6 ${
+            selectedButton === "LIFESTYLE" ? "text-lg font-bold" : "text-lg"
+          }`}
+        >
+          LIFESTYLE
+        </button>
+        <button
+          onClick={() => onClickButton("PLASTICS")}
+          className={`ml-6 ${
+            selectedButton === "PLASTICS" ? "text-lg font-bold" : "text-lg"
+          }`}
+        >
+          PLASTICS
+        </button>
+      </div>
+    </div>
+  );
+};
+
+export default FeaturedProduct;
