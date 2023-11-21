@@ -1,6 +1,6 @@
 const FourBoxes = () => {
   return (
-    <div className="HelveticaNeueBd mt-16 w-[1280px] h-[413px] gap-6 grid grid-cols-2 justify-between items-center m-0">
+    <div className="mt-16 w-[1280px] h-[413px] gap-6 grid grid-cols-2 justify-center items-center m-0">
       <div className="w-[630px] h-[186px]">
         <div className="absolute overflow-hidden rounded-2xl">
           <img

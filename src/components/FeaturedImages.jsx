@@ -1,8 +1,16 @@
-const FeaturedImages = () => {
+const FeaturedImages = ({ selectedButton, Index, Image }) => {
+  const onClickButton = () => {};
   return (
     <div>
-      <div className="flex flex-row h-[334px]">
-        <div className="bg-red-100 h-[289px] w-[289px]">card1</div>
+      <div className="flex flex-row border-8 border-gray-200">
+        <img
+          className={`w-[334px] h-[334px] ${
+            selectedButton === Index ? `${Index}-image` : ""
+          }`}
+          src={Image}
+          alt="Product_image"
+          onClick={onClickButton}
+        />
       </div>
     </div>
   );

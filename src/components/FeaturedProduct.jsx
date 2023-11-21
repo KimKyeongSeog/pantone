@@ -1,14 +1,9 @@
-import { useState } from "react";
-
-const FeaturedProduct = () => {
-  const [selectedButton, setSelectedButton] = useState("GRAPHIC");
-
+const FeaturedProduct = ({ selectedButton, setSelectedButton }) => {
   const onClickButton = (buttonName) => {
     setSelectedButton(buttonName);
   };
-
   return (
-    <div className="mt-20 font-HelveticaNeue_Light">
+    <div className="mt-20 font-HelveticaNeue_Light mb-12">
       <div className="text-center text-4xl">Featured Product</div>
       <div className="flex flex-row mt-4 pl-4">
         <button
