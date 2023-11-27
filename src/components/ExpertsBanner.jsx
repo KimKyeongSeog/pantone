@@ -17,7 +17,7 @@ const ExpertsBanner = () => {
           />
         </div>
         <div className="text-center">
-          <div className="bold">Lan Vu</div>
+          <div className="font-bold">Lan Vu</div>
           <div className="mb-3">Trend Forecaster</div>
         </div>
       </div>
@@ -30,7 +30,7 @@ const ExpertsBanner = () => {
           />
         </div>
         <div className="text-center">
-          <div className="bold">Leatrice Elseman</div>
+          <div className="font-bold">Leatrice Elseman</div>
           <div className="mb-3">Execlutive Director</div>
         </div>
       </div>
@@ -43,7 +43,7 @@ const ExpertsBanner = () => {
           />
         </div>
         <div className="text-center">
-          <div className="bold">Micheal Nolte</div>
+          <div className="font-bold">Micheal Nolte</div>
           <div className="mb-3">Color Forecaster</div>
         </div>
       </div>
@@ -56,7 +56,7 @@ const ExpertsBanner = () => {
           />
         </div>
         <div className="text-center">
-          <div className="bold">Tod Schulman</div>
+          <div className="font-bold">Tod Schulman</div>
           <div className="mb-3">Creative Director</div>
         </div>
       </div>

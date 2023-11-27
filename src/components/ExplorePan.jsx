@@ -12,8 +12,8 @@ const ExplorePan = () => {
             alt=""
           />
           <ul className="font-semibold w-[416px] my-4">
-            <li className="text-2xl">
-              <u>THE MANY SHADES OF STORYTELLING</u>
+            <li className="text-2xl mb-3">
+              <u className="">THE MANY SHADES OF STORYTELLING</u>
             </li>
             <li>
               <u>GO TO PRODUCT SPOTLIGHT</u>
@@ -27,7 +27,7 @@ const ExplorePan = () => {
             alt=""
           />
           <ul className="font-semibold w-[416px] my-4">
-            <li className="text-2xl">
+            <li className="text-2xl mb-3">
               <u>City Park Golden Brass: Symbolic Of A Place to Call Home</u>
             </li>
             <li>
@@ -42,7 +42,7 @@ const ExplorePan = () => {
             alt=""
           />
           <ul className="font-semibold w-[416px] my-4">
-            <li className="text-2xl">
+            <li className="text-2xl mb-3">
               <u>The Nuanced Beauty Of Natural Color</u>
             </li>
             <li>

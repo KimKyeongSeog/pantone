@@ -3,7 +3,7 @@ const FeaturedProduct = ({ selectedButton, setSelectedButton }) => {
     setSelectedButton(buttonName);
   };
   return (
-    <div className="mt-20 font-HelveticaNeue_Light mb-12">
+    <div className="mt-20 font-HelveticaNeue_Light">
       <div className="text-center text-4xl">Featured Product</div>
       <div className="flex flex-row mt-4 pl-4">
         <button

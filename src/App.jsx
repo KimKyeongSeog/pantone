@@ -12,6 +12,8 @@ import MeetPan from "./components/MeetPan";
 import ExplorePan from "./components/ExplorePan";
 import FeaturedImages from "./components/FeaturedImages";
 import Footer from "./components/Footer";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 const App = () => {
   const [selectedButton, setSelectedButton] = useState("GRAPHIC");
