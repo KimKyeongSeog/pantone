@@ -171,7 +171,7 @@ const App = () => {
             />
           </div>
           <div>
-            <Slider slidesToShow={4} autoplay={true} autoplaySpeed={1000}>
+            <Slider slidesToShow={4} autoplay={true} autoplaySpeed={3000}>
               {FeatureCard.map((v, i) => {
                 return (
                   <FeaturedImages
